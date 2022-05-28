@@ -1,0 +1,93 @@
+
+
+.fetured-headphones-wrapper {
+    position: relative;
+}
+
+.fetured-headphones-img-container {
+    width: 100%;
+    & img {
+        width: 100%;
+    }
+}
+
+.fetured-headphones-description {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    @media (min-width: 1280px)  {
+        width: 50%;
+        text-align: left;
+    }
+}
+
+.fetured-hedphones__overline {
+    margin-top: 180px;
+    margin-bottom: 20px;
+    color: #f2f2f2a2;
+    @media (min-width: 375px) {
+        margin-top: 210px;
+    }
+    @media (min-width: 700px) {
+        margin-top: 200px;
+    }
+    @media (min-width: 1000px) {
+        margin-top: 280px;
+    }
+    @media (min-width: 1280px) {
+        margin-top: 100px;
+        margin-left: 20%;
+    }
+}
+
+.fetured-hedphones__title {
+    margin-bottom: 30px;
+    color: white;
+    @media (min-width: 700px) {
+        font-size: 56px;
+        line-height: normal;
+    }
+    @media (min-width: 1000px) {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @media (min-width: 1280px) {
+        width: 100%;
+        margin-left: 20%;
+        
+    }
+
+}
+
+.fetured-hedphones__sub-title {
+    color: #f2f2f2a2;
+    font-size: 13px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    @media(min-width: 375px) {
+        width: 80%;
+    }
+    @media (min-width: 700px) {
+        font-size: 15px;
+        width: 45%;
+    }
+    @media (min-width: 1000px) {
+        margin-bottom: 60px;
+    }
+    @media (min-width: 1280px) {
+        width: 55%;
+        margin-left: 20%;
+        
+    }
+}
+
+.hearo-btn {
+    @media (min-width: 1280px) {
+        margin-left: 20%;
+    }
+}

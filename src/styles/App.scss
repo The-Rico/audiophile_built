@@ -1,0 +1,32 @@
+@import 'varibles.scss';
+@import 'typography.scss';
+@import 'buttonsStyle.scss';
+@import 'nav.scss';
+@import 'pageNav.scss';
+@import 'home.scss';
+@import 'featuredProducts';
+@import 'categoryPage';
+@import 'productPage';
+@import 'about.scss';
+@import 'footer.scss';
+@import 'modal.scss';
+@import 'cart.scss';
+@import 'checkout.scss';
+@import 'checkoutmessage.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: hidden;
+}
+
+body.modal-active {
+  overflow-y: hidden;
+}
