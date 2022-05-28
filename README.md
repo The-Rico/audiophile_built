@@ -1,3 +1,5 @@
+<p align="center">
+<img src='https://user-images.githubusercontent.com/97664519/170809460-a8b9ae04-c51c-4d7c-af2a-162f7e7facce.gif' /></p>
 ### Links
 
 - Live Site URL: https://the-rico.github.io/audiophile_built/
